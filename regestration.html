@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="regestration.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Work+Sans:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <section>
+
+        <nav>
+          <div class="leftside">
+            
+            <img src="./pngtree-book-clipart-vector-png-image_6653535.png" alt="">
+            <h1>KETAB</h1>
+          </div>
+            <ul>
+                <li>Login</li>
+                <span><li>Signup</li></span>
+                <li>About us</li>
+            </ul>
+
+        </nav>
+
+    </section>
+
+    <div class="loginform">
+
+        <h1>What are you wating for ?! </h1>
+        <form action="./index.php" method="get">
+
+            <p class="login">Register Now!</p>
+            <input type="text" placeholder="Name" name="name">
+            <span style="color: red;"><?php echo $nameError; ?></span><br>
+            <input type="text" placeholder="Email"name="email">
+            <input type="password" placeholder="password" name="password">
+
+            <p class="ff">Forget password?</p>
+
+            <input class="btn" type="submit" name="submit" value="Create an account">
+
+        </form>
+
+
+
+    </div>
+
+
+
+</body>
+</html>
+
